@@ -5,6 +5,9 @@
 body {
     font: 20px Arial;
 }
+h1 {}
+
+
 
 div {
     font: 40px Arial;
@@ -15,10 +18,13 @@ div, p {
     font-weight: bold;
 }
 
-div.voorbeeldClass {
-    border: 1px solid;
-}
+
 
 div#voorbeeldId {
     background-color: blue;
+}
+
+div.voorbeeldClass {
+    font: 100px Arial;
+    border: 1px solid;
 }
